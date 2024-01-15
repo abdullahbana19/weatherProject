@@ -1,0 +1,11 @@
+
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <p class="text-secondary m-2">Are you sure you want to delete this item?</p>
+    <button type="submit" class="btn btn-danger btn-sm ">Confirm</button>
+                
+    
+</form>
+{% endblock %}
